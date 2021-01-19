@@ -20,8 +20,8 @@ function preload() {
   );
 }
 
-function create(){
-
+function create() {
+  gameState.background = this.add.image(0, 0, "bg");
 }
 
 function initializePage(scene) {
