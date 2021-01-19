@@ -20,6 +20,10 @@ function preload() {
   );
 }
 
+function create(){
+
+}
+
 function initializePage(scene) {
   // create options list and background
   // and saves them into gameState
