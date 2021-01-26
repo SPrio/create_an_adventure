@@ -21,7 +21,9 @@ function preload() {
 }
 
 function renderCharacter(scene, key){
-
+  if(gameState.character){
+    gameState.character.destroy();
+  }
 }
 
 function create() {
