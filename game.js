@@ -22,6 +22,7 @@ function preload() {
 
 function create() {
   gameState.background = this.add.image(0, 0, "bg");
+  gameState.background.setOrigin(0,0);
 }
 
 function initializePage(scene) {
